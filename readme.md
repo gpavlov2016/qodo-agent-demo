@@ -1,6 +1,6 @@
 # Qodo Agent: Static Site Deployment
 
-This agent automates the deployment of static websites (such as Webflow exports) to AWS S3 and CloudFront. It streamlines the process of hosting static content on AWS, ensuring proper configuration, cache invalidation, and deployment validation. The agent is defined in `deploy-static.yaml` and is intended for use with the Qodo automation platform.
+This agent automates the deployment of static websites (such as Webflow exports) to AWS S3 and CloudFront. It streamlines the process of hosting static content on AWS, ensuring proper configuration, cache invalidation, and deployment validation. The agent is defined in `agent.toml` and uses the desktop-commander mcp server.
 
 ---
 
@@ -8,8 +8,8 @@ This agent automates the deployment of static websites (such as Webflow exports)
 
 Watch a demo of the deployment workflow in action:
 
-<video src="qodo-demo-2.mp4" controls width="600">
-  Your browser does not support the video tag. <a href="qodo-demo-2.mp4">Download the video</a>.
+<video src="https://youtu.be/5QaXuSn2XGs" controls width="600">
+  Your browser does not support the video tag. <a href="https://youtu.be/5QaXuSn2XGs">Download the video</a>.
 </video>
 
 
@@ -42,8 +42,10 @@ The agent is invoked via the `deploy-static` command. Below are example usages f
 
 ### Prerequisites
 
-- AWS CLI installed, configured and logged in
-- desktop-commander mcp serverinstalled
+- AWS CLI installed and configured (see [AWS CLI installation guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html))
+- AWS credentials configured and authenticated
+- [Desktop Commander MCP server](https://github.com/wonderwhy-er/DesktopCommanderMCP) installed
+- [Qodo CLI](https://docs.qodo.ai/qodo-documentation/qodo-command/getting-started/setup-and-quickstart) installed (`npm install -g @qodo/command`)
 
 ### Basic Usage
 ```
