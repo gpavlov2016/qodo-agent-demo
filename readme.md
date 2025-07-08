@@ -4,6 +4,17 @@ This agent automates the deployment of static websites (such as Webflow exports)
 
 ---
 
+## Demo
+
+Watch a demo of the deployment workflow in action:
+
+<video src="qodo-demo-2.mp4" controls width="600">
+  Your browser does not support the video tag. <a href="qodo-demo-2.mp4">Download the video</a>.
+</video>
+
+
+---
+
 ## Features
 - Validates AWS CLI installation and configuration
 - Selects or prompts for AWS CLI profile
