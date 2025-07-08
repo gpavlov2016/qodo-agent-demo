@@ -8,9 +8,7 @@ This agent automates the deployment of static websites (such as Webflow exports)
 
 Watch a demo of the deployment workflow in action:
 
-<video src="https://youtu.be/5QaXuSn2XGs" controls width="600">
-  Your browser does not support the video tag. <a href="https://youtu.be/5QaXuSn2XGs">Download the video</a>.
-</video>
+[![Watch the demo](https://img.youtube.com/vi/5QaXuSn2XGs/hqdefault.jpg)](https://youtu.be/5QaXuSn2XGs)
 
 
 ---
